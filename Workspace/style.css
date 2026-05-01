@@ -1,0 +1,112 @@
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 45px
+} 
+
+
+nav{
+    color:orange;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 50px;
+    padding-top: 15px;
+}
+
+a{
+    color: brown;
+}
+
+body{
+    background-color: orange;
+    text-align: bottom;
+}
+
+.navbar{
+    background-color: red;
+}
+
+h1{
+    text-align: center;
+    padding-top: 165px
+}
+
+.container {
+
+    display: flex;
+
+    gap: 20px;
+
+    padding: 20px;
+
+    justify-content: center;
+
+}
+ 
+.box {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    background-color: orange;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    padding: 15px;
+
+    flex: 1;
+
+}
+ 
+.box img {
+
+    width: 100px;
+
+    height: 100px;
+
+    object-fit: cover;
+
+    border-radius: 4px;
+
+    flex-shrink: 0;
+
+}
+ 
+.box p {
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+
+}
+
+
+
+body{
+    text-align: center;
+}
+
+
+.aboutus{
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    
+}
+.information{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+
+}
+
+.ourmission{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
