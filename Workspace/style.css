@@ -14,17 +14,15 @@ nav{
 }
 
 a{
-    color: brown;
+       color: black;
 }
 
 body{
     background-color: orange;
-    text-align: bottom;
+    font-size: 27;
+    text-align: center
 }
 
-.navbar{
-    background-color: red;
-}
 
 h1{
     text-align: center;
@@ -86,27 +84,64 @@ h1{
 
 }
 
-
-
-body{
+h1 {
     text-align: center;
+    margin-left: 15px;
 }
 
 
-.aboutus{
-    display: flex;
-    align-items: center;
-    padding-top: 200px;
+h2{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.course{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    font-size: 15px;
+    margin: 5px;
+    margin-top: 25px;
+    text-align: center;
+    
     
 }
-.information{
-    font-family: sans-serif;
-    font-size: 20px;
-    color: black;
+
+.contactinfo{
+    border: solid black;
 
 }
 
-.ourmission{
-    font-family: sans-serif;
-    font-size: 20px;
-    padding-top: 50px;
+
+.details{
+    border: solid black;
+    margin: 40px;
+    text-align: left;
+
+}
+
+.codinglevel{
+    border: solid black;
+    text-align: left;
+}
+
+
+.submit{
+    align-items: center;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 38%;
+    border: solid black;
+}
+
+.submitheader{
+    border: solid black;
+    margin-top: 50px;
+}
+
+.return{
+    border: solid black;
+    margin-top: 115px;
+    width: 300px;
+    margin-left: 38%;
+}
